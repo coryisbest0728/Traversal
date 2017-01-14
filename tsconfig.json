@@ -19,7 +19,11 @@
         "module": "commonjs",
         "target": "es5",
         "experimentalDecorators": true,
-        "emitDecoratorMetadata": true
+        "emitDecoratorMetadata": true,
+        "types": [
+            "core-js",
+            "jasmine"
+        ]
     },
     "include": [
         "./src/**/*"

@@ -20,6 +20,8 @@
         "target": "es5",
         "experimentalDecorators": true,
         "emitDecoratorMetadata": true,
+        "declaration": true,
+        "declarationDir": "../@types/cory/traversal/",
         "types": [
             "core-js",
             "jasmine"

@@ -1,5 +1,5 @@
 /**
- * @file The test for traversing
+ * @file The test for the traversing of the ITraversable.
  *
  * @author Cory(kuanghongrui@baijiahulian.com)
  */

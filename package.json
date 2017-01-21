@@ -54,6 +54,7 @@
     "@types/reflect-metadata": "0.0.5",
     "core-js": "^2.4.1",
     "log4js": "^1.0.1",
-    "reflect-metadata": "^0.1.8"
+    "reflect-metadata": "^0.1.8",
+    "xmlparser": "git+https://github.com/coryisbest0728/XMLParser.git"
   }
 }

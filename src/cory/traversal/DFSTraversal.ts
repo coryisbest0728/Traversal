@@ -25,7 +25,7 @@ export class DFSTraversal implements ITraversal {
     /**
      * Traversals the root traversable.
      * @param {ITraversable} rootTraversable
-     * @param {ITraversedVisitor?} visitor
+     * @param {ITraversedVisitor} visitor
      */
     public traversal(rootTraversable: ITraversable, visitor: ITraversedVisitor): void {
         this.stack.push(rootTraversable);

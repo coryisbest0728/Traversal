@@ -24,19 +24,21 @@ module.exports = {
 
     resolve: {
         root: [
-            path.resolve('./src'),
-            path.resolve('./tests')
+            path.resolve(__dirname, './src'),
+            path.resolve(__dirname, './tests'),
+            path.resolve(__dirname, './node_modules/xmlparser/src')
         ],
         extensions: ['', '.webpack.js', '.web.js', '.ts', '.tsx', '.js', '.scss']
     },
 
     module: {
-        loaders: [{ // All files with a '.ts' or '.tsx' extension will be handled by 'awesome-typescript-loader'.
+        loaders: [{ // All files with a '.ts' or '.tsx' extension will be handled by 'ts-loader'.
             test: /\.tsx?$/,
             include: [
                 path.resolve(__dirname, './src'),
                 path.resolve(__dirname, './tests'),
-                path.resolve(__dirname, './node_modules/@types')
+                path.resolve(__dirname, './node_modules/@types'),
+                path.resolve(__dirname, './node_modules/xmlparser/src')
             ],
             loader: "ts-loader"
         }],

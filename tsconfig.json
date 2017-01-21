@@ -5,7 +5,8 @@
             "*": [
                 "*",
                 "src/*",
-                "tests/*"
+                "tests/*",
+                "node_modules/xmlparser/src/*"
             ]
         },
         "rootDirs": [
@@ -20,7 +21,7 @@
         "target": "es5",
         "experimentalDecorators": true,
         "emitDecoratorMetadata": true,
-        "declaration": true,
+        "declaration": false,
         "declarationDir": "../@types/cory/traversal/",
         "types": [
             "core-js",

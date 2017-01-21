@@ -1,7 +1,7 @@
 /**
  * @file The test for the traversing of the element.
  *
- * @author Cory(kuanghongrui@baijiahulian.com)
+ * @author Cory(https://github.com/coryisbest0728)
  */
 
 import { BFSElementTraversal } from 'cory/traversal/element/BFSElementTraversal';

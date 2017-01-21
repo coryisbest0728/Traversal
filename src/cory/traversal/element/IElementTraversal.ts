@@ -1,7 +1,7 @@
 /**
  * @file The element traversal interface
  *
- * @author Cory(kuanghongrui@baijiahulian.com)
+ * @author Cory(https://github.com/coryisbest0728)
  */
 
 import { IElementVisitor } from 'cory/traversal/element/IElementVisitor';

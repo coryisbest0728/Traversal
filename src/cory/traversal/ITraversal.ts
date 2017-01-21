@@ -1,7 +1,7 @@
 /**
  * @file The traversal interface
  *
- * @author Cory(kuanghongrui@baijiahulian.com)
+ * @author Cory(https://github.com/coryisbest0728)
  */
 
 import { ITraversable } from 'cory/traversal/ITraversable';

@@ -1,7 +1,7 @@
 /**
  * @file The traversed visitor for the element traversal.
  *
- * @author Cory(kuanghongrui@baijiahulian.com)
+ * @author Cory(https://github.com/coryisbest0728)
  */
 
 export interface IElementVisitor {

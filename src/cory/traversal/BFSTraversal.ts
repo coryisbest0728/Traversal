@@ -1,7 +1,7 @@
 /**
  * @file The bfs traversal.
  *
- * @author Cory(kuanghongrui@baijiahulian.com)
+ * @author Cory(https://github.com/coryisbest0728)
  */
 
 import { ITraversal } from 'cory/traversal/ITraversal';

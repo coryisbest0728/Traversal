@@ -1,7 +1,7 @@
 /**
  * @file The bfs element traversal.
  *
- * @author Cory(kuanghongrui@baijiahulian.com)
+ * @author Cory(https://github.com/coryisbest0728)
  */
 
 import { IElementTraversal } from 'cory/traversal/element/IElementTraversal';

@@ -2,9 +2,8 @@
   "name": "traversal",
   "version": "0.0.1",
   "description": "The traversal algorithms",
-  "main": "index.js",
   "scripts": {
-    "realese": "webpack",
+    "release": "webpack",
     "test": "karma start"
   },
   "repository": {

@@ -7,7 +7,9 @@ var postcssImport = require('postcss-import');
 module.exports = {
     entry: {
         'cory/traversal/BFSTraversal': './src/cory/traversal/BFSTraversal.ts',
-        'cory/traversal/DFSTraversal': './src/cory/traversal/DFSTraversal.ts'
+        'cory/traversal/DFSTraversal': './src/cory/traversal/DFSTraversal.ts',
+        'cory/traversal/element/BFSElementTraversal': './src/cory/traversal/element/BFSElementTraversal.ts',
+        'cory/traversal/element/DFSElementTraversal': './src/cory/traversal/element/DFSElementTraversal.ts'
     },
     output: {
         path: path.resolve(__dirname, './dist'),
